@@ -1,0 +1,5 @@
+scenario,controller,settled
+nominal,PID,1.0
+nominal,Q-learning,0.016666666666666666
+parameter_variation,PID,1.0
+parameter_variation,Q-learning,0.03333333333333333

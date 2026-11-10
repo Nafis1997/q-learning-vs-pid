@@ -1,0 +1,28 @@
+{
+  "dt": 0.05,
+  "steps": 200,
+  "plant": "x_ddot = -a*x_dot - b*x + u + disturbance",
+  "action_limit": 3,
+  "pid_gains": [
+    6.0,
+    2.0,
+    2.0
+  ],
+  "episodes_per_seed": 2000,
+  "training_seeds": [
+    0,
+    1,
+    2
+  ],
+  "validation_seeds": [
+    10,
+    19
+  ],
+  "test_seeds": [
+    100,
+    119
+  ],
+  "reward": "-(error^2 + 0.03*u^2 + 0.05*velocity^2)",
+  "numpy": "1.26.4",
+  "python": "3.11.6"
+}
