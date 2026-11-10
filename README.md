@@ -35,7 +35,6 @@ python main.py --episodes 1000
 python make_plots.py
 ```
 
-[START_HERE.md](START_HERE.md) covers the VS Code setup.
 `requirements-tested.txt` records the versions used for the included run.
 Save a copy of `results/` before changing the experiment, since a new run overwrites it.
 
